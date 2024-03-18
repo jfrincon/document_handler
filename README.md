@@ -2,7 +2,6 @@
 
 This project implements a backend application leveraging Python, Django, and OpenAI to process and retrieve information from uploaded .docx documents.
 
-
 ## Functionality
 The application offers two core functionalities accessible through RESTful APIs:
 
