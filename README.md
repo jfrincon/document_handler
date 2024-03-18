@@ -34,7 +34,7 @@ OPENAI_API_KEY = <your-api-key>
 
 - Run docker-compose up to build and start the application with all its dependencies
 ```bash
-$ docker compose up
+$ docker compose up -d
 ```
 
 ## Usage
