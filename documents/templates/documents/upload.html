@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload DOCX File</title>
+</head>
+<body>
+    <h1>Upload DOCX File</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Upload</button>
+    </form>
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+            <li class="message {{ message.tags }}">
+                {{ message }}
+            </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+</html>
