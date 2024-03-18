@@ -9,7 +9,7 @@ The application offers two core functionalities accessible through RESTful APIs:
 
 - Users upload .docx documents via a designated endpoint.
 - The application utilizes the Langchain library to interact with the OpenAI API, extracting textual content and generating vector embeddings.
-- Generated embeddings are stored efficiently within a chosen vector database (e.g., Qdrant, Weaviate, Vespa) configured and deployed using Docker.
+- Generated embeddings are stored efficiently within a chosen vector database (Qdrant) configured and deployed using Docker.
 ### 2.Search and Retrieve Information:
 - Users submit text queries through a separate endpoint.
 - The application searches the vector database for documents with embeddings closest to the query embedding.
