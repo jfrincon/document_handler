@@ -28,11 +28,9 @@ LANGCHAIN_EMBEDDER = OpenAIEmbeddings(model="text-embedding-3-small")
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-5*fq!ai==c8azf@l*pf(@7=0au5aiy8y+d&8=9^nev8m9ujo_)"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
